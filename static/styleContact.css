@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+
+    text-align: center;
+    margin: 12px 0px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+/* .myInput{
+
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding:8px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+ } */
+ .myForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+    
+ }
+ .myInput{
+
+    width: 30%;
+    padding:8px;
+    margin: 15px;
+    border: 2px solid rgb(121, 70, 70);
+    border-radius: 3px;
+    outline: none;
+    
+
+ }
+
+ .btn{
+    padding: 8px;
+    background: green;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid green;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+ }
+ .container{
+
+    min-height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+ @media (max-width:368px){
+
+   navbar{
+       background: rgb(216, 216, 19);
+   }
+   
+}
